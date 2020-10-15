@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!--top line-->
+        <shape>
+            <gradient
+                android:centerColor="#414855"
+                android:centerX="0.5"
+                android:centerY="0"
+                android:endColor="#414855"
+                android:gradientRadius="400px"
+                android:startColor="#adb6c8"
+                android:type="radial" />
+            <corners android:radius="22px" />
+        </shape>
+    </item>
+    <!--bottom line-->
+    <item android:top="22px">
+        <shape>
+            <gradient
+                android:centerX="0.5"
+                android:centerY="1"
+                android:endColor="#292d37"
+                android:gradientRadius="400px"
+                android:startColor="@color/color_line"
+                android:type="radial" />
+            <corners android:radius="22px" />
+        </shape>
+    </item>
+    <!--left line-->
+    <item
+        android:bottom="22px"
+        android:right="22px"
+        android:top="22px">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:endColor="#292d37"
+                android:startColor="#414855" />
+        </shape>
+    </item>
+    <!--right line-->
+    <item
+        android:bottom="22px"
+        android:left="22px"
+        android:top="22px">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:endColor="#292d37"
+                android:startColor="#414855" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="2px"
+        android:left="2px"
+        android:right="2px"
+        android:top="2px">
+        <shape>
+            <gradient
+                android:angle="90"
+                android:endColor="@color/main_frame_bottom"
+                android:startColor="@color/main_frame_top" />
+            <corners android:radius="22px" />
+        </shape>
+    </item>
+</layer-list>
+
+
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<resources>
+    <declare-styleable name="DragLayout">
+        <attr name="canCloseWidth" format="dimension" />
+    </declare-styleable>
+
+    <style name="textview_style">
+        <item name="android:layout_height">@dimen/login_phone_height</item>
+        <item name="android:layout_width">99px</item>
+        <item name="android:background">@color/login_phone_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <declare-styleable name="TabLayout">
+        <attr name="tab_normal_textSize" format="dimension" />
+        <attr name="tab_select_textSize" format="dimension" />
+        <attr name="tab_textColor" format="reference" />
+        <attr name="tab_indicatorColor" format="color" />
+        <attr name="tab_indicatorHeight" format="dimension" />
+        <attr name="tab_min_width" format="dimension" />
+        <attr name="tab_dividerWidth" format="dimension" />
+        <attr name="tab_dividerColor" format="color" />
+        <attr name="tab_dividerPadding" format="dimension" />
+        <attr name="tab_Padding" format="dimension" />
+        <attr name="tab_dividerShow" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>

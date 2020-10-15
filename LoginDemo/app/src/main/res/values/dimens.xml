@@ -1,0 +1,249 @@
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<resources>
+
+    <!--common-->
+    <dimen name="common_button_height">102px</dimen>
+    <dimen name="common_close_width">30px</dimen>
+    <dimen name="bg_common_padding">16px</dimen>
+    <dimen name="iv_close_margin_right">46px</dimen>
+    <dimen name="line_width">2px</dimen>
+    <!--main-->
+    <dimen name="home_bg_width">782px</dimen>
+    <dimen name="home_bg_height">1249px</dimen>
+    <dimen name="width_container">782px</dimen>
+    <dimen name="main_world_width">420px</dimen>
+    <dimen name="main_world_height">140px</dimen>
+    <dimen name="main_start_width">185px</dimen>
+    <dimen name="main_start_height">55px</dimen>
+    <dimen name="main_start_margin_top">25px</dimen>
+    <dimen name="main_start_margin_right">270px</dimen>
+
+    <dimen name="main_container_marginleft">140px</dimen>
+    <dimen name="main_container_margintop">30px</dimen>
+    <dimen name="home_bg_padding_top">24px</dimen>
+    <dimen name="home_bg_padding_bottom">40px</dimen>
+    <!--bar-->
+    <dimen name="bar_width">6px</dimen>
+    <dimen name="bar_height">190px</dimen>
+    <dimen name="bar_parrent_margin_left">736px</dimen>
+    <dimen name="bar_parrent_margin_top">30px</dimen>
+    <dimen name="bar_parrent_margin_bottom">130px</dimen>
+    <!--accountcenter-->
+    <dimen name="center_item_width">160px</dimen>
+    <dimen name="center_item_height">95px</dimen>
+    <dimen name="width_3rd_bind">400px</dimen>
+    <dimen name="width_account">400px</dimen>
+    <dimen name="margin_right_button">100px</dimen>
+    <dimen name="bind_icon_width">100px</dimen>
+    <dimen name="center_head_root_height">130px</dimen>
+    <dimen name="center_head_width">90px</dimen>
+    <dimen name="center_head_height">80px</dimen>
+    <dimen name="center_head_margin_left">8px</dimen>
+    <dimen name="center_name_margin_left">58px</dimen>
+    <dimen name="center_root_padding_left">61px</dimen>
+    <dimen name="center_head_margin_top">15px</dimen>
+    <dimen name="center_margin_top_1">16px</dimen>
+    <dimen name="center_margin_top_2">40px</dimen>
+    <dimen name="center_margin_top_3">30px</dimen>
+    <dimen name="center_safe_setting_tipes_width">320px</dimen>
+    <dimen name="center_item_height_1">130px</dimen>
+    <!--resetpwd-->
+    <dimen name="width_reset_pwd">800px</dimen>
+    <!--dialog-->
+    <dimen name="dialog_sure_width">800px</dimen>
+    <dimen name="dialog_message_height">120px</dimen>
+    <dimen name="dialog_message_padding">30px</dimen>
+    <dimen name="dialog_bottom_height">50px</dimen>
+
+    <dimen name="logout_margin">45px</dimen>
+    <dimen name="logout_width">200px</dimen>
+    <dimen name="logout_height">52px</dimen>
+    <dimen name="thumb_padding_right">12px</dimen>
+    <dimen name="home_padding_bottom">60px</dimen>
+
+    <dimen name="cover_side_width">180px</dimen>
+    <dimen name="cover_bottom_height">100px</dimen>
+
+    <!-- login-->
+    <dimen name="login_padding_root">80px</dimen>
+    <dimen name="loginpage_input_width">800px</dimen>
+    <dimen name="loginpage_keyboard_width">400px</dimen>
+    <dimen name="qr_img_width">150px</dimen>
+    <dimen name="guide_arrow_right_width">38px</dimen>
+    <dimen name="guide_arrow_right_height">146px</dimen>
+    <dimen name="margin_top_small">10px</dimen>
+    <dimen name="margin_top_common">20px</dimen>
+    <dimen name="margin_top_bigger">30px</dimen>
+    <dimen name="margin_top_bigest">60px</dimen>
+
+    <dimen name="height_tab_line">4px</dimen>
+
+    <!--index_download-->
+    <dimen name="guide_left_width">1430px</dimen>
+    <dimen name="guide_left_slide_width">1392px</dimen>
+    <dimen name="guide_pop_width">1200px</dimen>
+    <dimen name="guide_pop_height">580px</dimen>
+    <dimen name="guide_qr_width">204px</dimen>
+    <dimen name="guide_margin_top_1">40px</dimen>
+    <dimen name="guide_margin_top_2">15px</dimen>
+    <dimen name="guide_margin_top_3">35px</dimen>
+    <dimen name="guide_margin_top_4">10px</dimen>
+    <dimen name="guide_margin_top_5">30px</dimen>
+    <dimen name="guide_margin_left_1">100px</dimen>
+    <dimen name="guide_margin_right_1">100px</dimen>
+    <dimen name="guide_margin_left_2">55px</dimen>
+    <dimen name="guide_margin_left_3">10px</dimen>
+    <dimen name="guide_qr_refresh_width">90px</dimen>
+
+    <dimen name="guide_margin_top_6">60px</dimen>
+    <dimen name="guide_margin_top_7">110px</dimen>
+    <dimen name="guide_margin_left_4">200px</dimen>
+    <dimen name="guide_margin_left_5">440px</dimen>
+    <dimen name="guide_content_width">1060px</dimen>
+
+    <!--keyboard-->
+    <dimen name="keyboard_width">400px</dimen>
+    <dimen name="keyboard_height">432px</dimen>
+    <dimen name="keyboard_margin">24px</dimen>
+    <dimen name="keyboard_item_size">94px</dimen>
+    <dimen name="keyboard_item_full_size">108px</dimen>
+    <dimen name="keyboard_item_margin">7px</dimen>
+    <!--account list-->
+    <dimen name="account_list_root_width_list">441px</dimen>
+    <dimen name="account_list_root_width">447px</dimen>
+    <dimen name="account_list_root_height">135px</dimen>
+    <dimen name="account_list_owner_height">130px</dimen>
+    <dimen name="account_list_item_height">80px</dimen>
+    <dimen name="account_list_foot_height">100px</dimen>
+    <dimen name="account_list_margin_top">24px</dimen>
+    <dimen name="account_list_margin_bottom">60px</dimen>
+    <dimen name="account_list_margin_left">180px</dimen>
+    <dimen name="account_list_add_width">78px</dimen>
+    <dimen name="account_list_add_padding">24px</dimen>
+    <dimen name="account_list_add_margin_left">50px</dimen>
+    <dimen name="account_list_item_head_width">68px</dimen>
+    <dimen name="account_list_item_star_width">34px</dimen>
+    <dimen name="account_list_item_tv_width">210px</dimen>
+    <dimen name="account_list_owner_margin_left">35px</dimen>
+    <dimen name="account_list_item_margin_left">70px</dimen>
+    <dimen name="account_list_item_margin_right">10px</dimen>
+    <dimen name="account_list_star_margin_bottom">15px</dimen>
+    <dimen name="account_list_item_margin_right_2">22px</dimen>
+    <dimen name="account_list_item_delete_padding">30px</dimen>
+
+    <dimen name="account_list_bar_width">8px</dimen>
+    <dimen name="account_list_bar_height">234px</dimen>
+    <dimen name="account_list_bar_parrent_margin_top">130px</dimen>
+    <dimen name="account_list_bar_parrent_margin_left">12px</dimen>
+    <dimen name="account_list_padding_line">3px</dimen>
+
+    <dimen name="account_v_head_width">80px</dimen>
+    <dimen name="account_v_head_width_inner">66px</dimen>
+    <dimen name="account_v_head_inner_margin_1">6px</dimen>
+
+    <!--login-->
+    <dimen name="login_root_width">796px</dimen>
+    <dimen name="login_root_height">594px</dimen>
+    <dimen name="login_root_bg_padding">16px</dimen>
+    <dimen name="login_tab_width">674px</dimen>
+    <dimen name="login_title_margin_left">58px</dimen>
+    <dimen name="login_title_margin_top">40px</dimen>
+    <dimen name="login_title_margin_bottom">10px</dimen>
+    <!--qr login-->
+    <dimen name="account_login_qr">182px</dimen>
+    <dimen name="account_qr_img_margin_top">35px</dimen>
+    <dimen name="account_qr_img_margin_bottom">20px</dimen>
+    <dimen name="login_qr_tips_margin_left">30px</dimen>
+    <dimen name="login_qr_cb_size">30px</dimen>
+    <dimen name="qr_login_loading_width">150px</dimen>
+    <!--phone login-->
+    <dimen name="login_phone_width">672px</dimen>
+    <dimen name="login_phone_height">82px</dimen>
+    <dimen name="login_phone_button_height">100px</dimen>
+    <dimen name="login_phone_margin_top">90px</dimen>
+    <dimen name="login_phone_icon_margin_left">15px</dimen>
+    <dimen name="login_phone_margin_left">35px</dimen>
+    <dimen name="login_phone_margin_1">25px</dimen>
+    <dimen name="error_tv_margin_left">20px</dimen>
+    <dimen name="phone_icon_width">28px</dimen>
+    <dimen name="phone_icon_height">45px</dimen>
+    <dimen name="error_icon_size">40px</dimen>
+    <dimen name="error_margin_top">10px</dimen>
+    <dimen name="login_phone_tips_margin_left">52px</dimen>
+    <dimen name="login_tab_margin_top">10px</dimen>
+
+    <!--verify code-->
+    <dimen name="login_verifycode_next_width">322px</dimen>
+    <dimen name="login_verifycode_next_height">82px</dimen>
+    <dimen name="login_verifycode_next_margin_left">25px</dimen>
+    <dimen name="login_verifycode_next_margin_bottom">45px</dimen>
+    <dimen name="captcha_item_width">94px</dimen>
+    <dimen name="captcha_item_height">82px</dimen>
+    <dimen name="captcha_item_margin">5px</dimen>
+    <!--bindkey-->
+    <dimen name="bind_key_width">1030px</dimen>
+    <dimen name="bind_key_height">530px</dimen>
+    <dimen name="bind_key_margintop_1">10px</dimen>
+    <dimen name="bind_key_margintop_2">30px</dimen>
+    <dimen name="bind_key_anim_width">206px</dimen>
+    <dimen name="bind_key_anim_height">120px</dimen>
+    <dimen name="bind_key_margin_1">40px</dimen>
+    <dimen name="bind_key_margin_2">50px</dimen>
+    <dimen name="bind_key_margin_3">55px</dimen>
+    <dimen name="bind_key_root_padding">15px</dimen>
+
+    <!--dataPurchase-->
+    <dimen name="data_purchase_width">685px</dimen>
+    <dimen name="data_purchase_height">465px</dimen>
+    <dimen name="data_purchase_list_width">180px</dimen>
+    <dimen name="data_purchase_height_2">200px</dimen>
+    <dimen name="data_purchase_close_top">54px</dimen>
+    <dimen name="data_purchase_margin_1">40px</dimen>
+    <dimen name="data_purchase_margin_2">60px</dimen>
+    <dimen name="data_purchase_margin_3">32px</dimen>
+    <dimen name="data_purchase_margin_4">35px</dimen>
+    <dimen name="data_purchase_margin_5">18px</dimen>
+    <dimen name="data_purchase_margin_6">12px</dimen>
+    <dimen name="data_purchase_margin_7">22px</dimen>
+    <!--sureview-->
+    <dimen name="sureview_width">800px</dimen>
+    <dimen name="sureview_height">276px</dimen>
+    <dimen name="sureview_bottom_height">82px</dimen>
+    <dimen name="sureview_margin_top_1">38px</dimen>
+    <dimen name="sureview_margin_1">4px</dimen>
+    <dimen name="sureview_margin_2">8px</dimen>
+    <dimen name="sureview_margin_3">10px</dimen>
+    <dimen name="sureview_margin_4">20px</dimen>
+    <!--loading-->
+    <dimen name="dialog_pb_width">100px</dimen>
+    <dimen name="dialog_loading_width">300px</dimen>
+    <dimen name="dialog_loading_height">300px</dimen>
+    <dimen name="dialog_loading_margintop">20px</dimen>
+
+    <!--privacy-->
+    <dimen name="privacy_pop_width">1380px</dimen>
+    <dimen name="privacy_pop_height">600px</dimen>
+    <dimen name="privacy_margin_1">40px</dimen>
+    <dimen name="privacy_margin_2">45px</dimen>
+    <dimen name="privacy_margin_3">25px</dimen>
+    <dimen name="privacy_margin_4">30px</dimen>
+    <dimen name="privacy_margin_5">10px</dimen>
+    <dimen name="privacy_margin_6">50px</dimen>
+    <dimen name="privacy_margin_7">20px</dimen>
+    <dimen name="privacy_bottom_height">100px</dimen>
+
+    <!--textsize-->
+    <dimen name="tv_common">28px</dimen>
+    <dimen name="tv_big">30px</dimen>
+    <dimen name="tv_key">42px</dimen>
+    <dimen name="tv_login_title">34px</dimen>
+    <dimen name="tv_small">24px</dimen>
+    <dimen name="tv_smaller">20px</dimen>
+    <dimen name="tv_nickname">28px</dimen>
+
+</resources>

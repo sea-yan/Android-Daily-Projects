@@ -1,0 +1,72 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AccountMainActivity">
+
+<FrameLayout
+    android:id="@+id/fl_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_account_center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="@dimen/main_start_margin_right"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="@dimen/main_world_width"
+            android:layout_height="@dimen/main_world_height"
+            android:background="@drawable/icon_world" />
+
+        <FrameLayout
+            android:layout_width="@dimen/main_start_width"
+            android:layout_height="@dimen/main_start_height"
+            android:layout_marginTop="@dimen/main_start_margin_top">
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_start"
+                android:gravity="center"
+                android:text="@string/star_start"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_common" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/icon_startup" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_container_marginleft"
+        android:visibility="visible" />
+</FrameLayout>
+
+<FrameLayout
+    android:id="@+id/fl_mycar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:visibility="gone"></FrameLayout>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cover_bottom_height"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bg_cover_bottom" />
+</FrameLayout>

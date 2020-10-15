@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/anim_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/anim_content"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/login_root_height"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_pop_login"
+        android:clickable="true"
+        android:gravity="center">
+
+        <com.dwh.customview.KeyboardView
+            android:id="@+id/keyboard"
+            android:layout_width="@dimen/keyboard_width"
+            android:layout_height="@dimen/keyboard_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/keyboard_margin"
+            android:visibility="gone"></com.dwh.customview.KeyboardView>
+
+        <View
+            android:id="@+id/v_line_vert"
+            style="@style/v_line_vert"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:layout_width="@dimen/login_root_width"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/login_phone_width"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/login_title_margin_top"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sourcehan-sans-bold"
+                        android:text="@string/title_qr_login"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tv_login_title"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/iv_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/login_title_margin_bottom"
+                        android:src="@drawable/close" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_phone_height"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/login_tab_margin_top">
+
+                    <View
+                        android:id="@+id/v_long"
+                        style="@style/v_line"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="bottom" />
+
+                    <View
+                        android:id="@+id/v_short"
+                        style="@style/v_line"
+                        android:layout_width="@dimen/login_phone_width"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:visibility="gone" />
+
+                    <com.dwh.customview.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="@dimen/login_phone_width"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        app:tab_dividerShow="false"
+                        app:tab_indicatorHeight="0dp"
+                        app:tab_normal_textSize="@dimen/tv_common"
+                        app:tab_select_textSize="@dimen/tv_common"
+                        app:tab_textColor="@color/tab_text"></com.dwh.customview.TabLayout>
+
+                </FrameLayout>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+            </LinearLayout>
+
+            <com.dwh.page.VerifyCodeView
+                android:id="@+id/v_verify_code"
+                android:layout_width="@dimen/login_phone_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="gone"></com.dwh.page.VerifyCodeView>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

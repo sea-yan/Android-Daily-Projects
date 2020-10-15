@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_transparent"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb_loading"
+        android:layout_width="@dimen/dialog_pb_width"
+        android:layout_height="@dimen/dialog_pb_width"
+        android:indeterminateDrawable="@anim/loading" />
+</LinearLayout>

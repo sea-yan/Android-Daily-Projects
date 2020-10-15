@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_phone_input"
+        android:layout_width="@dimen/login_phone_width"
+        android:layout_height="@dimen/login_phone_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_phone_margin_top"
+        android:background="@drawable/icon_key_nor"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_phone_icon_margin_left"
+            android:src="@drawable/icon_phone" />
+
+        <EditText
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:gravity="center_vertical|left"
+            android:hint="@string/input_phone_num"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray"
+            android:textCursorDrawable="@drawable/bg_et_cursor"
+            android:textSize="@dimen/tv_common" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/ll_error"
+            android:layout_width="@dimen/login_phone_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/error_margin_top"
+            android:gravity="center_vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="@dimen/phone_icon_width"
+                android:layout_height="@dimen/phone_icon_height"
+                android:src="@drawable/icon_error" />
+
+            <TextView
+                android:id="@+id/tv_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/error_tv_margin_left"
+                android:textColor="@color/color_error_red"
+                android:textSize="@dimen/tv_small" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <View style="@style/v_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_phone_button_height">
+
+        <TextView
+            android:id="@+id/tv_captcha_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/captcha_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_common" />
+
+        <View style="@style/v_line_vert" />
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/register_account"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_common" />
+
+        <TextView
+            android:id="@+id/tv_pwd_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pwd_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tv_common"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

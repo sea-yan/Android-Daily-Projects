@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/account_list_item_height">
+
+    <TextView
+        android:id="@+id/tv_other_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/account_list_item_margin_left"
+        android:layout_marginRight="@dimen/account_list_item_margin_left"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_common" />
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="@dimen/account_list_item_margin_right"
+        android:padding="@dimen/account_list_item_delete_padding"
+        android:src="@drawable/icon_aclist_delete"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/v_item_line"
+        style="@style/v_line"
+        android:layout_gravity="top|center_horizontal" />
+</FrameLayout>

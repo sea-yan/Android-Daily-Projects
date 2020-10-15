@@ -1,0 +1,245 @@
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<resources>
+    <!--homefragment-->
+    <string name="phone_login">登陆</string>
+    <string name="app_name">个人中心</string>
+    <string name="star_start">开始</string>
+    <string name="personal_setting">个性设置</string>
+    <string name="settings_tips">可以保存在帐号中的硬件设置</string>
+    <string name="cockpit">驾驶舱</string>
+    <string name="atmosphere">氛围灯</string>
+    <string name="air_conditioner">空调</string>
+    <string name="sound_effects">音效</string>
+    <string name="safe_setting">安全设置</string>
+    <string name="keys_unbind_tips">钥匙未绑定</string>
+    <string name="account_pwd">帐号密码</string>
+    <string name="face_id">Face ID</string>
+    <string name="unbind">未绑定钥匙</string>
+    <string name="bind">绑定</string>
+    <string name="untying">解绑</string>
+    <string name="bind_key_tips">绑定钥匙</string>
+    <string name="has_binded">已绑定钥匙</string>
+    <string name="bind_tips">第三方帐号与应用绑定，实现同登同出</string>
+    <string name="tencent_car">腾讯我的车</string>
+    <string name="qq_music">QQ音乐</string>
+    <string name="xmla_radio">喜马拉雅FM</string>
+    <string name="gaode_map">高德地图</string>
+    <string name="jdong_bind">小京鱼</string>
+    <string name="logout">退出登录</string>
+    <string name="switch_debug">切换调试模式</string>
+    <string name="tips_jd_uninstall">还没有安装小鲸鱼App</string>
+    <string name="tips_net_error">操作失败,请检查网络</string>
+    <string name="tips_net_error_question">反馈结果上传失败，请检查网络后重试！</string>
+
+    <string name="my_data">我的流量</string>
+    <string name="please_wait">请稍等</string>
+    <string name="tips_can_show_account">为了您的安全，请不要在驾驶时操作帐号。</string>
+
+
+    <string name="login">登录</string>
+    <string name="input_phone_num">&#160;&#160;&#160;请输入手机号码</string>
+    <string name="pwd">&#160;&#160;&#160;请输入密码</string>
+    <string name="input_phone_num_right_tips">请输入正确的手机号</string>
+    <string name="pwd_login">密码登录</string>
+    <string name="input_pwd_tips">请输入密码</string>
+    <string name="next">下一步</string>
+    <string name="back_step">上一步</string>
+    <string name="resend">重新发送</string>
+    <string name="captcha_login">验证码登录</string>
+    <string name="tips_login_1">未注册的手机号验证后自动创建传祺帐号</string>
+    <string name="tips_login_2">在注册本系统前，请务必仔细阅读本声明</string>
+    <string name="send_authen_code_tips">已发送验证码至</string>
+    <string name="change_mobile">更改手机号</string>
+    <string name="propagate">故事宣传片</string>
+    <string name="law_tips_1">欢迎注册帐号，我们将为您打造全新的用车体验！</string>
+    <string name="guide_title">欢迎使用ADIGO智能物联系统，我们将为您打造全新的用车体验！</string>
+    <string name="law_name">中华人民共和国网络安全法</string>
+    <string name="law_detail">法规详情</string>
+    <string name="index_tips_1">手机扫描右侧二维码，下载广汽新能源APP</string>
+    <string name="index_tips_2">在广汽新能源APP内注册帐号</string>
+    <string name="index_tips_3">使用广汽新能源APP扫描，或使用手机号验证码登录车机</string>
+    <string name="index_title_tips_1">下载广汽新能源APP</string>
+    <string name="index_title_tips_2">注册帐号</string>
+    <string name="index_title_tips_3">登录帐号</string>
+
+    <string name="guide_title_tips_2">注册帐号并认证</string>
+    <string name="guide_tips_2">在广汽新能源APP内注册帐号，点击“绑定车辆”后，按提示完成认证</string>
+    <string name="guide_title_tips_3">关联车辆</string>
+    <string name="guide_tips_3">使用广汽新能源APP扫描右侧二维码进行激活</string>
+
+    <string name="login_success">登录成功</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="reset_pwd_tips">设置登录密码</string>
+    <string name="reset_pwd_tips_sure">确认登录密码</string>
+    <string name="reset_pwd_error_tips">与上次输入的密码不一致</string>
+    <string name="reset_pwd_hint">请输入8-16位数字加字母密码</string>
+    <string name="reset_pwd_hint_ok">请输入上一步设置的密码</string>
+    <string name="complete">完成</string>
+    <string name="back">返回</string>
+    <string name="qr_login_tips">登录即代表您一同意"免密切换登录协议"</string>
+    <string name="register_tips">同意使用切换帐号无密码,未注册用户时将自动创建帐号,且代表您已同意《用户注册协议》</string>
+    <string name="register_qr_tips">&#160;&#160;&#160;&#160;同意使用切换帐号无需验证</string>
+    <string name="register_tips_2">未注册用户时将自动创建帐号,且代表您已同意《用户注册协议》</string>
+
+    <string name="title_qr_login">使用广汽新能源APP扫码登录</string>
+    <string name="title_phone_login">使用手机号与验证码登录</string>
+    <string name="title_code_sended">已发送验证码</string>
+    <string name="test_active">模拟激活帐号</string>
+    <string name="time_second">s</string>
+    <string name="loading_tips">正在加载数据...</string>
+
+    <string name="bind_key_title">将帐号绑定实体钥匙</string>
+    <string name="bind_key_tips_1">绑定后，使用该钥匙解锁车辆可自动登录绑定帐号</string>
+    <string name="bind_key_tips_2">请按下实体钥匙的解锁键</string>
+    <string name="start_bind">开始绑定</string>
+    <string name="cancel">取消</string>
+    <string name="guide_tips">根据以下流程，完成车主身份认证</string>
+    <string name="register_title">请根据以下流程，完成账号注册</string>
+    <string name="logout_account">退出帐号</string>
+    <string name="logout_tips">是否退出“%1$s”</string>
+    <string name="sure">确定</string>
+    <string name="cancle_bind">取消绑定</string>
+    <string name="cancle_bind_tips">取消广汽帐号与实体钥匙的绑定</string>
+    <string name="cancle_bind_gao_tips">取消广汽帐号与高德帐号的绑定</string>
+    <string name="cancle_bind_tai_tips">取消广汽帐号与腾讯帐号的绑定</string>
+    <string name="cancle_bind_jd_tips">取消广汽帐号与京东帐号的绑定</string>
+    <string name="cancle_bind_qq_tips">取消广汽帐号与QQ音乐的绑定</string>
+    <string name="cancle_bind_radio_tips">取消广汽帐号与喜马拉雅电台的绑定</string>
+    <string name="hello_tips_before_am">清晨好!</string>
+    <string name="hello_tips_am">早上好!</string>
+    <string name="hello_tips_after_am">上午好!</string>
+    <string name="hello_tips_noon">中午好!</string>
+    <string name="hello_tips_afternoon">下午好!</string>
+    <string name="hello_tips_evening">傍晚好!</string>
+    <string name="hello_tips_night">晚上好!</string>
+    <string name="hello_tips_early_morning">凌晨好!</string>
+    <string name="tips_save_personal_settings">调整驾驶舱位置，可以保存到我的账号</string>
+    <string name="delete_account">删除帐号</string>
+    <string name="delete_account_tips_1">是否将帐号“%1$s”从系统中删除？</string>
+    <string name="delete_account_tips_2">删除帐号将清除该帐号下的所有数据</string>
+    <string name="login_error_tips">登录失败</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="i_konw">我知道了</string>
+    <string name="set_face">设置人脸识别</string>
+    <string name="set_face_tips">用于帐号快速登录验证</string>
+    <string name="start_setting">开始设置</string>
+    <string name="face_login_rescan">重新识别</string>
+    <string name="set_face_look_top">请面向方向盘上方的摄像头</string>
+    <string name="set_complete">设置成功</string>
+    <string name="jumping">正在跳转...</string>
+    <string name="set_face_treaty">人脸识别免责声明</string>
+    <string name="set_face_treaty_content">\u3000\u3000在使用Face ID功能之前，请您阅读以下注意事项，您选择使用Face ID功能即视为您已知悉并同意本声明，自愿行使相关权利并承担法律责任:
+        \n1.您的车机账号可能会被容貌、外形与您相近的人或物品登录。
+        \n2.人脸识别的安全性低于图案密码、数字密码及混合密码。
+        \n3.在暗光、强光、逆光或角度过大等情况下，人脸识别的成功率会有所降低。
+        \n4.请勿将车辆随意交给他人使用，避免Face ID功能被恶意利用，因此导致的后果由您或该第三方承担。
+        \n5.除以上场景外，现实中还可能存在其他影响Face ID功能正常使用的情况，您需要对此予以注意。
+        \n为了更好地使用Face ID功能，录入面部数据时请您注意以下事项：
+        \n1.请保证光线充足，避免阳光直射并避免其他人出现在录入的画面中。
+        \n2.请注意录入数据时的面部状态，避免衣帽、头发、墨镜、口罩、浓妆等遮挡面部信息。
+        \n3.请避免仰头、低头、闭眼或仅露出侧脸的情况，确保脸部正面清晰完整的出现在提示框内。
+        \n4.若您同意本声明并录入面部数据，系统将会开启Face ID功能。
+        \n5.面部数据将在您的车辆本地加密保存，我们不会外泄您的面部数据，不使用Face ID功能时，您可通过删除账号、解绑车辆或恢复出厂设置清除面部数据保存信息。
+        \n6.在法律允许的范围内，我方不承担用户或任何人士就使用或未能使用本功能所引致的任何直接、间接、附带、从属、特殊、惩罚性或惩戒性的损害赔偿。</string>
+    <string name="unagree">不同意</string>
+    <string name="scanning">正在识别</string>
+    <string name="scan_failed">识别失败</string>
+    <string name="other_login">其它登录方式</string>
+    <string name="datamining_app_name">智联助手</string>
+    <string name="pass">跳过</string>
+    <string name="disclaime_1">使用前请仔细阅读产品说明书。</string>
+    <string name="disclaime_2">为了您的安全，车辆行驶中请不要进行操作。</string>
+    <string name="disclaime_3">本产品所计算出的路径和引导仅供参考，请务必遵守实际的交通规则进行驾驶。</string>
+    <string name="disclaime_4">因违反上述忠告而发生交通事故或者造成其他损失，本产品的研发、生产、销售均不承担任何责任。</string>
+    <string name="face_error">人脸识别错误</string>
+    <string name="tai_bind_success">腾讯帐号绑定成功</string>
+    <string name="gao_bind_success">高德帐号绑定成功</string>
+    <string name="jd_bind_success">京东帐号绑定成功</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="unbind_success">解绑成功</string>
+
+    <string name="tai_unbind_success">腾讯帐号解绑成功</string>
+    <string name="gao_unbind_success">高德帐号解绑成功</string>
+    <string name="jd_unbind_success">京东帐号解绑成功</string>
+    <string name="set_face_error_msg">设置人脸失败</string>
+    <string name="bind_key_error_msg">绑定实体钥匙失败</string>
+    <string name="get_activie_qr_error_msg">获取激活二维码失败，请刷新重试</string>
+    <string name="switch_account_error_msg">切换帐号失败</string>
+    <string name="get_car_status_error_msg">未获取到车辆状态，请检查网络</string>
+    <string name="bind_tai_error_msg">绑定腾讯地图失败，请重试</string>
+    <string name="real_key_login_error_msg">实体钥匙登录失败</string>
+    <string name="virtual_key_login_error_msg">虚拟钥匙登录失败</string>
+    <string name="net_error_not_reg">该账号尚未注册</string>
+    <string name="net_error_send_msg_fail">发送短信失败</string>
+    <string name="net_error_phone_invalid">手机号码格式无效</string>
+    <string name="net_error_not_valid">登录已过期，请重新登录</string>
+    <string name="net_error_session_invalid">sessionid无效，请返回重试</string>
+    <string name="net_error_send_code_too_much">短信重发过于频繁</string>
+    <string name="net_error_get_mobile_code">获取验证码失败,请重试</string>
+    <string name="net_error_wrong_verify_code">验证码答案验证失败</string>
+    <string name="net_error_verify_code_error">验证码输入错误</string>
+    <string name="net_error_code_fail_too_much">短信验证码失败次数太多,请重新发起流程</string>
+    <string name="net_error_vin_not_upload">该车辆信息未录入后台</string>
+    <string name="net_error_other">未获取到数据，请稍候再试.</string>
+    <string name="net_error_un_active">系统未激活认证，请先激活认证</string>
+    <string name="net_error_code_timeout">验证码已过期，请重新发送</string>
+    <string name="bind_in_tai_wx">请在公众号绑定车辆</string>
+    <string name="unbind_in_tai_wx">请在公众号解绑车辆</string>
+    <string name="error_unbind_failed">解绑失败，请重新解绑</string>
+    <string name="login_status_error">身份验证失效，请重新登录</string>
+    <string name="logout_failed">退出登录失败</string>
+    <string name="wait_system_init_finish">等待系统初始化...</string>
+    <string name="has_bind_key">钥匙已经被“%1$s”绑定,请先解绑或删除该帐号</string>
+    <string name="account_unlogin">未登录</string>
+    <string name="register_account">注册帐号</string>
+    <string name="face_recognition">人脸识别</string>
+    <string name="face_scan_error">人脸设置失败，请重试</string>
+    <string name="face_set_retry">重新设置</string>
+    <string name="tips_title_owner_unbind">车主已取消绑定</string>
+    <string name="tips_content_owner_unbind">车主已取消绑定车辆，请绑定后再使用系统</string>
+    <string name="bind_gao_error">绑定高德地图帐号失败，请重试</string>
+    <string name="save">保存</string>
+    <string name="restore">恢复</string>
+    <string name="save_restore_tips">是否保存当前位置？</string>
+
+    <string name="please_activation_device">请重新激活设备</string>
+    <string name="interence_error">接口异常</string>
+    <string name="date_purchase_top">信息娱乐包</string>
+    <string name="date_purchase_navigation">· 在线导航</string>
+    <string name="date_purchase_music">· 在线音乐</string>
+    <string name="date_purchase_radio_station">· 在线电台</string>
+    <string name="date_purchase_shop">· 应用商店</string>
+    <string name="date_purchase_wifi">· 车载WiFi</string>
+    <string name="date_purchase_cancel">取消</string>
+    <string name="date_purchase_buy_data">流量购买：%s</string>
+    <string name="date_purchase_lost_data">剩余流量：%s</string>
+    <string name="date_purchase_date">有效期至：%s</string>
+    <string name="date_purchase_buy">购买</string>
+    <string name="date_purchase_buy_error">查询流量信息失败</string>
+    <string name="get_buy_data_code_fail">获取流量购买二维码失败</string>
+    <string name="tips_install_jd">下载小鲸鱼·智能家居</string>
+    <string name="tips_install_jd_content">跳转至应用商店下载小鲸鱼·智能家居</string>
+    <string name="login_fail">登录失效，请重新登录</string>
+    <string name="common_error">服务请求失败，请检查网络</string>
+    <string name="device_error">服务异常，请重新获取</string>
+    <string name="bind_realkey_success">绑定钥匙成功</string>
+    <string name="unbind_realkey_success">解绑钥匙成功</string>
+    <string name="identify_success">识别成功</string>
+    <string name="vehicle_is_active">车辆已激活</string>
+    <string name="buy_data_year">年</string>
+    <string name="buy_data_month">月</string>
+    <string name="buy_data_day">日</string>
+    <string name="account_init">账号正在初始化</string>
+    <string name="close">关闭</string>
+    <string-array name="title_tabs">
+        <item>扫码登录</item>
+        <item>手机号登录</item>
+    </string-array>
+
+</resources>

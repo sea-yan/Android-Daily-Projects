@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="@dimen/account_login_qr"
+        android:layout_height="@dimen/account_login_qr"
+        android:layout_marginTop="@dimen/account_qr_img_margin_top">
+
+        <ImageView
+            android:id="@+id/iv_qr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/fl_qr_default"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_qr_default" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_qr_black_cover" />
+        </FrameLayout>
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="@dimen/guide_qr_refresh_width"
+            android:layout_height="@dimen/guide_qr_refresh_width"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@anim/loading"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_refresh"
+            android:layout_width="@dimen/guide_qr_refresh_width"
+            android:layout_height="@dimen/guide_qr_refresh_width"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_refresh"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:button="@drawable/selector_cb"
+        android:checked="true"
+        android:gravity="center"
+        android:text="@string/register_qr_tips"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_small" />
+
+    <View style="@style/v_line" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:background="@drawable/selector_agree_bg"
+        android:gravity="center"
+        android:text="@string/register_account"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_common" />
+</LinearLayout>

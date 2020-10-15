@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/color_qr_black_cover">
+
+    <LinearLayout
+        android:layout_width="300px"
+        android:layout_height="70px"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tittle"
+            android:layout_gravity="center_horizontal"
+            android:text="手机号登陆"
+            android:textSize="60px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_phone_input"
+        android:layout_width="@dimen/login_phone_width"
+        android:layout_height="@dimen/login_phone_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/login_phone_margin_top"
+        android:background="@drawable/icon_key_nor"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image"
+            android:layout_marginLeft="@dimen/login_phone_icon_margin_left"
+            android:src="@drawable/icon_phone" />
+
+
+        <EditText
+            android:id="@+id/tv_phone"
+            android:layout_width="200px"
+            android:layout_height="50px"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="-150px"
+            android:background="@color/transparent"
+            android:gravity="center_vertical|left"
+            android:hint="手机号"
+            android:textColor="@color/main_frame_top"
+            android:textColorHint="@color/main_frame_bottom"
+            android:textCursorDrawable="@drawable/bg_et_cursor"
+            android:textSize="@dimen/tv_common" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="200px"
+            android:layout_height="50px"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="50px"
+            android:background="@color/transparent"
+            android:gravity="center_vertical"
+            android:hint="密码"
+            android:textColor="@color/main_frame_top"
+            android:textColorHint="@color/main_frame_bottom"
+            android:textCursorDrawable="@drawable/bg_et_cursor"
+            android:textSize="@dimen/tv_common" />
+
+
+    </LinearLayout>
+
+
+    <View style="@style/v_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_phone_button_height">
+
+        <TextView
+            android:id="@+id/tv_captcha_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@color/main_frame_top"
+            android:textSize="@dimen/tv_common" />
+
+        <View style="@style/v_line_vert" />
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="注册"
+            android:textColor="@color/main_frame_top"
+            android:textSize="@dimen/tv_common" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_pwd_login"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/pwd_login"-->
+<!--            android:textColor="@color/main_frame_top"-->
+<!--            android:textSize="@dimen/tv_common"-->
+<!--            android:visibility="gone" />-->
+    </LinearLayout>
+</LinearLayout>

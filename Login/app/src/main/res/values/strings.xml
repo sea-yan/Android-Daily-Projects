@@ -1,0 +1,247 @@
+<!--
+  Copyright (c) 2018-2020 ThunderSoft
+  All Rights Reserved by Thunder Software Technology Co., Ltd and its affiliates.
+  You may not use, copy, distribute, modify, transmit in any form this file
+  except in compliance with ThunderSoft in writing by applicable law.
+-->
+<resources>
+    <string name="app_name">Login</string>
+    <string name="star_start">start</string>
+    <string name="personal_setting">Personality settings</string>
+    <string name="settings_tips">Hardware settings that can be saved in accounts.</string>
+    <string name="cockpit">Cockpit</string>
+    <string name="atmosphere">Atmosphere lamp</string>
+    <string name="air_conditioner">air conditioner</string>
+    <string name="sound_effects">sound effects</string>
+
+    <string name="phone_login">log in</string>
+
+
+    <string name="safe_setting">safe settings</string>
+    <string name="keys_unbind_tips">keys unbind</string>
+    <string name="account_pwd">password</string>
+    <string name="face_id">Face ID</string>
+    <string name="unbind">unbind keys</string>
+    <string name="bind">bind</string>
+    <string name="untying">untying</string>
+    <string name="bind_key_tips">bind key</string>
+    <string name="has_binded">binded keys</string>
+
+    <string name="bind_tips">Bind the third party account with application to achieve co-logon and co-logout.</string>
+    <string name="tencent_car">tencent</string>
+    <string name="qq_music">QQ</string>
+    <string name="xmla_radio">radio</string>
+    <string name="gaode_map">gaode</string>
+    <string name="jdong_bind">jingdong</string>
+
+    <string name="logout">logout</string>
+    <string name="switch_debug">switch debug</string>
+    <string name="tips_net_error_question">Feedback result upload failed, please check the network and try again!</string>
+
+    <string name="my_data">My traffic</string>
+    <string name="please_wait">Please wait</string>
+
+
+    <string name="login">login</string>
+    <string name="input_phone_num">&#160;&#160;&#160;Please input phone number</string>
+    <string name="pwd">&#160;&#160;&#160;Please input password</string>
+    <string name="input_phone_num_right_tips">Please input correct phone number</string>
+    <string name="pwd_login">login by password</string>
+    <string name="input_pwd_tips">Please input password</string>
+    <string name="next">next</string>
+    <string name="back_step">Previous step</string>
+    <string name="resend">resend</string>
+    <string name="captcha_login">Login by captcha</string>
+    <string name="tips_login_1">Automatically create Chuanqi account after verification of unregistered mobile phone number</string>
+    <string name="tips_login_2">Before registering this system, please read this statement carefully.</string>
+    <string name="send_authen_code_tips">Verification code sent to</string>
+    <string name="change_mobile">Change mobile phone number</string>
+    <string name="propagate">Story Promotional Film</string>
+    <string name="law_tips_1">Welcome to the registration account, we will create a brand new car experience for you!</string>
+    <string name="guide_title">Welcome to ADIGO system, we will create a brand new car experience for you!</string>
+    <string name="law_name">Law of the Peoples Republic of China on Network Security</string>
+    <string name="law_detail">Regulation details</string>
+    <string name="index_tips_1">Mobile phone scans right two-dimensional code and downloads GAC New Energy APP</string>
+    <string name="index_tips_2">Register Account in GAC New Energy APP</string>
+    <string name="index_tips_3">Use GAC New Energy APP scan, or use mobile phone number verification number to log in to the locomotive</string>
+    <string name="index_title_tips_1">Download GAC New Energy APP</string>
+    <string name="index_title_tips_2">Register Account</string>
+    <string name="index_title_tips_3">Login Account</string>
+    <string name="guide_title_tips_2">Account registration and certification</string>
+    <string name="guide_tips_2">Register the account number in GAC new energy app, click "bind vehicle" and complete the certification according to the prompts</string>
+    <string name="guide_title_tips_3">Associated vehicle</string>
+    <string name="guide_tips_3">Scan and activate the QR code on the right side with GAC new energy app</string>
+    <string name="login_success">Login successfully</string>
+    <string name="add">add</string>
+    <string name="delete">delete</string>
+    <string name="reset_pwd_tips">Set login pasword</string>
+    <string name="reset_pwd_tips_sure">Make sure login password correct</string>
+    <string name="reset_pwd_error_tips">Inconsistent with the last password entered</string>
+    <string name="reset_pwd_hint">Please enter an 8-16 digit plus alphabetic password</string>
+    <string name="reset_pwd_hint_ok">Please enter the password set in the previous step.</string>
+    <string name="complete">complete</string>
+    <string name="back">back</string>
+    <string name="qr_login_tips">Login means that you agree to the "No Close Replacement Login Protocol"</string>
+    <string name="register_tips">If you agree to use the switched account without password, the account will be created automatically when the user is not registered, and on behalf of you, you have agreed to the "User Registration Agreement".</string>
+    <string name="register_qr_tips">&#160;&#160;&#160;&#160;Agree to use switched account without password</string>
+    <string name="register_tips_2">Unregistered users will automatically create accounts, and on behalf of you have agreed to the User Registration Agreement</string>
+
+    <string name="title_qr_login">Use GAC New Energy App Scan Logon</string>
+    <string name="title_phone_login">Login with Mobile Phone Number and Authentication Number</string>
+    <string name="title_code_sended">Verification code has been sent</string>
+    <string name="test_active">Simulated Activation Account</string>
+    <string name="time_second">s</string>
+    <string name="loading_tips">net is loading</string>
+
+    <string name="bind_key_title">Bind account number to entity key</string>
+    <string name="bind_key_tips_1">After binding, unlocking the vehicle with this key can automatically log in to the binding account number.</string>
+    <string name="bind_key_tips_2">Press the unlock key for the physical key.</string>
+    <string name="start_bind">start bind</string>
+    <string name="cancel">cancel</string>
+    <string name="guide_tips">According to the following process, complete the owner identity authentication</string>
+    <string name="register_title">According to the following process, complete register progress.</string>
+    <string name="logout_account">logout account</string>
+    <string name="logout_tips">Whether to quit “%1$s”</string>
+    <string name="sure">sure</string>
+    <string name="cancle_bind">cancle_bind</string>
+    <string name="cancle_bind_tips">Cancel the binding of GAC account number and entity key</string>
+    <string name="cancle_bind_gao_tips">Cancel the binding of GAC account number and Gaode</string>
+    <string name="cancle_bind_tai_tips">Cancel the binding of GAC account number and Tencent</string>
+    <string name="cancle_bind_jd_tips">Cancel the binding of GAC account number and Jingdong</string>
+    <string name="cancle_bind_qq_tips">Cancel the binding of GAC account number and QQ</string>
+    <string name="cancle_bind_radio_tips">Cancel the binding of GAC account number and Radio</string>
+    <string name="hello_tips_before_am">Good morning!</string>
+    <string name="hello_tips_am">Good morning!</string>
+    <string name="hello_tips_after_am">Good morning!</string>
+    <string name="hello_tips_noon">Good noon!</string>
+    <string name="hello_tips_afternoon">Good afternoon!</string>
+    <string name="hello_tips_evening">Good evening!</string>
+    <string name="hello_tips_night">Good evening!</string>
+    <string name="hello_tips_early_morning">Good morning!</string>
+    <string name="tips_save_personal_settings">Adjust the cockpit position, you can save to Chuanqi account!</string>
+    <string name="delete_account">delete account</string>
+    <string name="delete_account_tips_1">Will the account "%1$s" be deleted from the system?</string>
+    <string name="delete_account_tips_2">Deleting an account clears all data under that account.</string>
+    <string name="login_error_tips">login error</string>
+    <string name="user_agreement">user agreement</string>
+    <string name="i_konw">i konw</string>
+    <string name="set_face">set face</string>
+    <string name="set_face_tips">Used for account fast login verification.</string>
+    <string name="start_setting">start setting</string>
+    <string name="face_login_rescan">Rescan</string>
+    <string name="set_face_look_top">Please face the camera above the steering wheel.</string>
+    <string name="set_complete">set complete</string>
+    <string name="jumping">jumping</string>
+    <string name="set_face_treaty">set face treaty</string>
+    <string name="set_face_treaty_content">Before using the face ID function, please keep the following precautions in mind：
+        \n1.Your car account may be listed by people or items similar to you in appearance and appearance.
+        \n2.The security of face recognition is lower than that of pattern cipher, digital cipher and hybrid cipher.
+        \n3.In the case of dark light, strong light, backlight or too large angle, the success rate of face recognition will be reduced.
+        \n4.Do not hand over the vehicle to others for use at will to avoid the malicious use of face ID function.
+        \n5.In addition to the above scenarios, there may be other situations that affect the normal use of face ID function in reality, which you need to pay attention to.
+        \nIn order to better use face ID function, please pay attention to the following items when entering face data:
+        \n1.Please make sure that there is sufficient light, avoid direct sunlight and avoid other people appearing in the input screen.
+        \n2.Please pay attention to the face status when entering data, and avoid the clothes, hair, sunglasses, masks, heavy makeup, etc. blocking the face information.
+        \n3.Please avoid looking up, looking down, closing eyes or only showing the side face, and make sure that the front face is clear and complete in the prompt box.
+        \nIf you agree to this statement and input the face data (the face data will be encrypted and saved locally in your vehicle), the system will turn on the face ID function.
+    </string>
+    <string name="unagree">unagree</string>
+    <string name="scanning">scanning</string>
+    <string name="scan_failed">scan failed</string>
+    <string name="other_login">other login</string>
+    <string name="datamining_app_name">智联助手</string>
+    <string name="pass">pass</string>
+    <string name="disclaime_1">Please read the product instructions carefully before use.</string>
+    <string name="disclaime_2">For your safety, please do not operate while the vehicle is running.</string>
+    <string name="disclaime_3">This product calculates the route and guidance for reference only, please be sure to follow the actual traffic rules for driving.</string>
+    <string name="disclaime_4">The developer, production and sales of this product shall not be liable for any traffic accident or other losses arising from violation of the appeal advice.</string>
+    <string name="face_error">face is error</string>
+    <string name="tai_bind_success">bind tencent success</string>
+    <string name="gao_bind_success">bind gaode success</string>
+    <string name="jd_bind_success">bind jingdong success</string>
+    <string name="bind_success">bind success</string>
+    <string name="unbind_success">unbind success</string>
+
+    <string name="tai_unbind_success">unbind tencent success</string>
+    <string name="gao_unbind_success">unbind gaode success</string>
+    <string name="jd_unbind_success">unbind jingdong success</string>
+
+    <string name="set_face_error_msg">set face error</string>
+    <string name="bind_key_error_msg">bind real key error</string>
+    <string name="get_activie_qr_error_msg">Failed to get activated two-dimensional code, please refresh and retry</string>
+    <string name="switch_account_error_msg">switch account error</string>
+    <string name="get_car_status_error_msg">Vehicle status not obtained, please check the network</string>
+    <string name="bind_tai_error_msg">Binding Tencent Map failed. Please try again.</string>
+    <string name="real_key_login_error_msg">Real key login failed.</string>
+    <string name="virtual_key_login_error_msg">Virtual key login failed.</string>
+    <string name="net_error_not_reg">Account is not registered, please register with mobile app first.</string>
+    <string name="net_error_not_valid">The current account login has expired. Please log in again.</string>
+    <string name="net_error_session_invalid">sessionid invalid,please try again.</string>
+    <string name="net_error_send_code_too_much">Verify code are re-sent too frequently.</string>
+    <string name="net_error_wrong_verify_code">Code verify failed.</string>
+    <string name="net_error_verify_code_error">Verify code error.</string>
+    <string name="net_error_send_msg_fail">Failed to send SMS</string>
+    <string name="net_error_phone_invalid">Invalid mobile number format</string>
+    <string name="net_error_code_fail_too_much">Too many times of SMS verification code failure, please restart the process</string>
+    <string name="net_error_get_mobile_code">Failed to get the verification code, please try again</string>
+    <string name="net_error_vin_not_upload">The vehicle information is not entered in the background</string>
+    <string name="net_error_other">No data available. Please try again later.</string>
+    <string name="net_error_un_active">System does not activate authentication, please activate authentication first</string>
+    <string name="net_error_code_timeout">Mobile code has time out,retry please</string>
+    <string name="bind_in_tai_wx">Please bind the vehicle in WeChat Official Account.</string>
+    <string name="unbind_in_tai_wx">Please unbind the vehicle in WeChat Official Account.</string>
+    <string name="error_unbind_failed">Uninding failed, please reunbind.</string>
+    <string name="tips_can_show_account">For your safety, please do not operate your account while driving.</string>
+    <string name="login_status_error">Authentication is invalid. Please log in again.</string>
+    <string name="logout_failed">Logout failed.</string>
+    <string name="wait_system_init_finish">Waiting for system initialization...</string>
+    <string name="has_bind_key">The key has been bound by “%1$s”. Please unbind or delete the account first.</string>
+    <string name="account_unlogin">Unlogin</string>
+    <string name="register_account">Register</string>
+    <string name="face_recognition">Face Recognition</string>
+    <string name="face_scan_error">Setting face failed, please try again</string>
+    <string name="face_set_retry">ReSetting</string>
+    <string name="tips_title_owner_unbind">The owner has unbound</string>
+    <string name="tips_content_owner_unbind">The owner has unbound the vehicle, please use the system after binding</string>
+    <string name="bind_gao_error">Bind map failed,please try again.</string>
+    <string name="save">save</string>
+    <string name="restore">restore</string>
+    <string name="save_restore_tips">Do you want to save the current location?</string>
+    <string name="tips_net_error">Operation failed, please check the network</string>
+
+    <string name="please_activation_device">Please reactivate the device</string>
+    <string name="interence_error">Interface exception</string>
+
+    <string name="date_purchase_top">Infotainment package</string>
+    <string name="date_purchase_navigation">- Online navigation</string>
+    <string name="date_purchase_music">- Online music</string>
+    <string name="date_purchase_radio_station">- Online radio</string>
+    <string name="date_purchase_shop">- App Store</string>
+    <string name="date_purchase_wifi">- Car WiFi</string>
+    <string name="date_purchase_cancel">Cancel</string>
+    <string name="date_purchase_buy_data">Traffic purchase：%s</string>
+    <string name="date_purchase_lost_data">Remaining flow：%s</string>
+    <string name="date_purchase_date">Valid until：%s</string>
+    <string name="date_purchase_buy">Buy</string>
+    <string name="date_purchase_buy_error">Querying traffic information failed</string>
+    <string name="get_buy_data_code_fail">Failed to obtain data to purchase QR code</string>
+    <string name="tips_install_jd">Download little whale · smart home</string>
+    <string name="tips_install_jd_content">Jump to the app store to download little whale · smart home</string>
+    <string name="login_fail">Login failed, please login again</string>
+    <string name="common_error">Service request failed</string>
+    <string name="device_error">Service exception, please re-obtain</string>
+    <string name="bind_realkey_success">bind real key success</string>
+    <string name="unbind_realkey_success">unbind real key success</string>
+    <string name="identify_success">identify success</string>
+    <string name="vehicle_is_active">vehicle is active</string>
+    <string name="buy_data_year">-</string>
+    <string name="buy_data_month">-</string>
+    <string name="buy_data_day"> </string>
+    <string name="account_init">Account is initializing</string>
+    <string name="close">close</string>
+    <string-array name="title_tabs">
+        <item>QR code login</item>
+        <item>Mobile login</item>
+    </string-array>
+
+</resources>

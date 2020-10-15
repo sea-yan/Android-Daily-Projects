@@ -25,9 +25,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
     Test test = new Test();
     AidlCallback callBack = new AidlCallback.Stub() {
         @Override
-        public void onClick() throws RemoteException {
+        public void onClick(String msg) throws RemoteException {
             Log.e(TAG, "callback: Button");
         }
+
     };
 
     //    private AidlManager aidlManager;

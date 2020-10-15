@@ -5,5 +5,5 @@ package com.dwh.accountapp;
 import com.dwh.accountapp.Test;
 interface AidlCallback {
 
-    void onClick();
+    void onClick(String msg);
 }
